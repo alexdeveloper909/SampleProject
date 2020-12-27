@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InterviewProject</string>
+    <string name="firstMenuItem">1</string>
+    <string name="secondMenuItem">2</string>
+    <string name="thirdMenuItem">3</string>
+
+    <string name="citiesApi">Select city</string>
+    <string name="myList">My list</string>
+    <string name="cityS">select city...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="downloadZipImages">Fetch zip images</string>
+    <string name="enterZipFileHint">Enter zip file...</string>
+
+    <string name="myZipFile">https://github.com/alexdeveloper909/my_zip_file/raw/main/photos.zip</string>
+</resources>

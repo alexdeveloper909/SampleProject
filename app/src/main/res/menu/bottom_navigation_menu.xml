@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/fetchDataFragment"
+        android:title="@string/firstMenuItem"
+        android:icon="@drawable/ic_one"
+        android:enabled="true"
+         />
+    <item android:id="@+id/sensorFragment2"
+        android:title="@string/secondMenuItem"
+        android:icon="@drawable/ic_two"
+        android:enabled="true"
+         />
+    <item android:id="@+id/unzipPhotosFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_three"
+        android:title="@string/thirdMenuItem" />
+</menu>

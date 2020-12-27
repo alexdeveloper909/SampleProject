@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fetchDataFragment">
+
+    <fragment
+        android:id="@+id/fetchDataFragment"
+        android:name="com.alex.interviewproject.ui.fetchingdata.FetchDataFragment"
+        android:label="fetch_data_fragment"
+        tools:layout="@layout/fetch_data_fragment" />
+    <fragment
+        android:id="@+id/sensorFragment2"
+        android:name="com.alex.interviewproject.ui.sensor.SensorFragment"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/unzipPhotosFragment"
+        android:name="com.alex.interviewproject.ui.zip.UnzipPhotosFragment"
+        android:label="unzip_photos_fragment"
+        tools:layout="@layout/unzip_photos_fragment" />
+</navigation>
